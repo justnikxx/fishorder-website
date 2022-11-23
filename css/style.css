@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+/*
+    Author:Feeling Datu;
+    Theme: Fish Order and Delivery;
+    version:1.0;
+*/
+
+/*css for all*/
+
+*{
+    margin: 0 0;
+    padding:0 0;
+    font-family:'Poppins', Tahoma,  Verdana, sans-serif;
+ }
+.container{
+
+    width: 80%;
+    margin: 0% auto;
+    padding: 2%;
+}
+
+.img-responsive{
+    width:100%;
+}
+
+.img-curve{
+    border-radius: 15px;
+}
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #222327;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#669900;
+}
+
+.btn{
+    padding:1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+
+}
+
+.btn-primary{
+    background-color: #222327;
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn-primary:hover{
+    color: white;
+    background-color:#669900;
+}
+
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position:absolute;
+    bottom: 50px;
+    left: 40%;
+}
+/* css for Navbar section*/
+
+
+.app-logo{
+    width: 10%;
+    float:left;
+}
+.navigation{
+    line-height: 60px;
+}
+.navigation ul{
+    list-style-type: none;
+}
+
+.navigation ul li {   
+     padding: 1%;
+     display: inline;  
+     font-weight: bold;
+}
+
+ /*css for food search section*/
+
+ .food-search{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    padding: 7% 0;
+
+ }
+
+ .food-search input[type="search"]{
+    width: 55%;
+    padding: 1%;
+    font-size: 1rem;
+    border:none;
+    border-radius: 5px;
+ }
+
+
+ /*css for Food Menu*/
+ .food-menu{
+    background-color: #fff;
+    padding: 4% 0;
+ }
+ .food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: #ececec;
+ }
+
+ .food-menu-img{
+    width:20%;
+    float: left;
+ }
+
+ .food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+ }
+
+ .food-price{
+    font-size: 1.2rem;
+ }
+
+ .navigation ul li a .icon{
+    visibility: hidden;
+}
+
+ /* CSS for mobile */
+
+@media only screen and (max-width:768px){
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    
+    .app-logo{
+       width:80%;
+       float:none;
+       margin:0% auto;
+
+    }
+
+    .navigation{
+        text-align:center;
+        margin:1% auto;
+    }
+
+
+    .btn{
+        padding:1.5%;
+        border: none;
+        font-size: 1rem;
+        border-radius: 5px;
+    }
+    .food-menu{
+        padding: 10% 0;
+    }
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+    }
+    
+    .food-search{
+        background-image: url(../images/background.jpg);
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center;
+        padding: 7% 0;
+    
+     }
+    
+     .food-search input[type="search"]{
+        width: 56%;
+        padding: 1%;
+        font-size: 1rem;
+        border:none;
+        border-radius: 5px;
+     }
+
+   :root{ 
+    --clr: #222327;
+    }
+
+.navigation{
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    }
+
+.navigation ul{
+    display: flex;
+    width: 350px;
+    }
+
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    width: 100px;
+    height: 70px;
+    z-index: 1;
+
+    }
+
+.navigation ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    }
+
+.navigation ul li a .icon{
+    position:relative;
+    display: block ;
+    line-height: 80px;
+    font-size: 1.5em;
+    text-align:center;
+    color: var(--clr);
+    }
+
+.navigation ul li a .text{
+   visibility: hidden;
+
+    }
+    .navigation ul li a .icon{
+        visibility:visible;
+    }
+    .social{
+        visibility: hidden;
+    }
+
+    .footer{
+        visibility: hidden;
+    }
+        .navigation ul li a .icon:hover{
+            padding: 0 30px ;
+            background-color: #669900;
+        }
+   
+
+}
+
+    
